@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurante Al Barakah</title>
+  <meta name="description" content="Restaurante Al Barakah: auténtica comida árabe en Cereté y Montería. Disfruta de platos recomendados, un ambiente acogedor y la mejor atención.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/LOGO  AL BARAKAH.png" alt="Al Barakah Logo" height="48" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recomendados">Recomendados</a></li>
+        <li class="nav-item"><a class="nav-link" href="#horarios">Horarios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Sobre Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contáctanos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero d-flex align-items-center position-relative">
+  <div class="hero-overlay"></div>
+  <div class="container text-center text-white hero-content">
+    <h1 class="display-4 fw-bold mb-3">
+      <span class="text-warning">Al BARAKAH</span><br>
+      Sabor y Tradición Árabe
+    </h1>
+    <p class="lead mb-4">Más de 9 años compartiendo los auténticos sabores de Medio Oriente en Córdoba.</p>
+    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mb-3">
+      <a href="https://drive.google.com/file/d/1SnQ-PEFa3KJRPXygcp27wgiU26IJoNMk/view?usp=drive_link"
+         target="_blank" class="btn btn-outline-light btn-lg">
+         <i class="bi bi-file-earmark-text"></i> Ver Menú
+      </a>
+      <a href="http://wa.me/573007656000" target="_blank" class="btn btn-success btn-lg">
+        <i class="bi bi-whatsapp"></i> Pide Ahora
+      </a>
+    </div>
+    <div class="hero-rating">
+      ★★★★★ <span class="fs-6">+500 reseñas positivas</span>
+    </div>
+  </div>
+</section>
+
+  <!-- Platos Recomendados -->
+  <section id="recomendados" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Platos Recomendados</h2>
+      <div class="row" id="platosRecomendados">
+        <!-- Los platos se agregan con JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Horarios -->
+ <!-- Horarios -->
+<section id="horarios" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Horarios de Atención</h2>
+    <div class="row justify-content-center">
+      <!-- Cereté -->
+      <div class="col-md-5 mb-4">
+        <div class="card shadow-lg border-0 h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold text-primary">Cereté</h5>
+            <p class="mb-1">Lunes a domingo</p>
+            <p class="mb-1">10:00 am - 2:00 pm</p>
+            <p class="mb-1">05:00 pm - 10:00 pm</p>
+          </div>
+        </div>
+      </div>
+      <!-- Montería -->
+      <div class="col-md-5 mb-4">
+        <div class="card shadow-lg border-0 h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold text-primary">Montería</h5>
+            <p class="mb-1">Lunes a domingo</p>
+            <p class="mb-1">05:00 pm - 10:00 pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Ubicación -->
+  <section id="ubicacion" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Ubicación</h2>
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <h5 class="fw-bold">Cereté</h5>
+          <p><i class="bi bi-geo-alt"></i> Calle 12 No14 84, Cereté, Córdoba</p>
+          <div class="ratio ratio-16x9 rounded shadow">
+            <iframe
+              src="https://www.google.com/maps?q=Calle+12+No14+84,+Cereté,+Córdoba,+Colombia&output=embed"
+              allowfullscreen
+              loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0">
+          <h5 class="fw-bold">Montería</h5>
+          <p><i class="bi bi-geo-alt"></i> Edificio Plaza del Recreo, Cl. 62b #N° 5A, Montería, Córdoba</p>
+          <div class="ratio ratio-16x9 rounded shadow">
+            <iframe
+              src="https://www.google.com/maps?q=Edificio+Plaza+del+Recreo,+Cl.+62b+%23N%C2%B0+5A,+Montería,+Córdoba,+Colombia&output=embed"
+              allowfullscreen
+              loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Sobre Nosotros</h2>
+      <div class="row align-items-center mb-4">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <img src="img/sobrenosotros.jpg" class="img-fluid rounded shadow about-img" alt="Equipo de trabajo Al Barakah">
+        </div>
+        <div class="col-md-6">
+          <p style="text-align: justify;">
+            <strong>Al Barakah Restaurante árabe</strong> Hace más de 9 años abrimos nuestras puertas con un propósito claro: compartir la auténtica gastronomía árabe, transmitida de generación en generación en nuestra familia.
+           <br><br>
+           Cada plato se prepara con recetas heredadas, ingredientes frescos y ese toque especial que solo la tradición familiar puede brindar.
+           <br><br>
+            En un ambiente moderno y acogedor, te invitamos a disfrutar de sabores que te transportarán al corazón de Medio Oriente, acompañados de un servicio cálido y atento que refleja nuestra esencia.
+
+           </p> <p style="text-align: center; font-weight: bold;"> En Al Barakah celebramos más de 9 años de historia, tradición y sabor. ¡Ven y vive la experiencia!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea id="message" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+          </form>
+          <div id="formAlert" class="alert mt-3 d-none"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-4 pb-2 mt-5">
+    <div class="container">
+      <div class="row mb-4">
+        <!-- Horarios -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="fw-bold">Horarios de Atención</h5>
+          <p class="mb-1"><strong>Cereté:</strong><br>
+            Lunes a domingo<br>
+            10:00 am - 2:00 pm<br>
+            05:00 pm - 10:00 pm
+          </p>
+          <p class="mb-1"><strong>Montería:</strong><br>
+            Lunes a domingo<br>
+            05:00 pm - 10:00 pm
+          </p>
+        </div>
+        <!-- Contacto -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5 class="fw-bold">Contacto</h5>
+          <p class="mb-1"><i class="bi bi-telephone"></i>  <a href="tel:+573007656000" class="text-white">+57 300 765 6000</a></p>
+          <p class="mb-1"><i class="bi bi-envelope"></i> <a href="mailto:albrarakahrestaurante@gmail.com" class="text-white">albrarakahrestaurante@gmail.com</a></p>
+          <h5 class="fw-bold mt-3">Redes Sociales</h5>
+          <a href="http://wa.me/573007656000" target="_blank" class="text-white me-2 fs-4"><i class="bi bi-whatsapp"></i></a>
+          <a href="https://www.instagram.com/albarakah_cor" target="_blank" class="text-white me-2 fs-4"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1aG7fBjHhS/?mibextid=wwXIfr" target="_blank" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+        </div>
+      </div>
+      <div class="text-center small border-top pt-2">
+        &copy; 2025 Restaurante Al Barakah. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap y JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
