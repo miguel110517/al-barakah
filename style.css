@@ -286,3 +286,28 @@ footer .border-top {
 .text-primary {
   color: var(--primary) !important;
 }
+/* =======================
+  10 años
+   ======================= */
+.sello-10anos {
+  max-width: 100px;          /* tamaño reducido */
+  margin: 0 auto 1rem auto;  /* centrado horizontal + espacio abajo */
+  display: block;            /* asegura que ocupe su propia línea */
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+
+
+}
+/* =======================
+ ALERTA
+   ======================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

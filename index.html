@@ -38,11 +38,15 @@
   <section id="inicio" class="hero d-flex align-items-center position-relative">
   <div class="hero-overlay"></div>
   <div class="container text-center text-white hero-content">
+
+     <!-- Insignia de 10 años -->
+    <img src="img/10.png" alt="10 años de experiencia" class="sello-10anos">
+
     <h1 class="display-4 fw-bold mb-3">
       <span class="text-warning">Al BARAKAH</span><br>
       Sabor y Tradición Árabe
     </h1>
-    <p class="lead mb-4">Más de 9 años compartiendo los auténticos sabores de Medio Oriente en Córdoba.</p>
+    <p class="lead mb-4">Más de 10 años compartiendo los auténticos sabores de Medio Oriente en Córdoba.</p>
     <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mb-3">
       <a href="https://drive.google.com/file/d/1SnQ-PEFa3KJRPXygcp27wgiU26IJoNMk/view?usp=drive_link"
          target="_blank" class="btn btn-outline-light btn-lg">
@@ -139,7 +143,7 @@
         </div>
         <div class="col-md-6">
           <p style="text-align: justify;">
-            <strong>Al Barakah Restaurante árabe</strong> Hace más de 9 años abrimos nuestras puertas con un propósito claro: compartir la auténtica gastronomía árabe, transmitida de generación en generación en nuestra familia.
+            <strong>Al Barakah Restaurante Árabe</strong>, hace más de 10 años abrimos nuestras puertas con un propósito claro: compartir la auténtica gastronomía árabe, transmitida de generación en generación en nuestra familia.
            <br><br>
            Cada plato se prepara con recetas heredadas, ingredientes frescos y ese toque especial que solo la tradición familiar puede brindar.
            <br><br>
@@ -152,32 +156,40 @@
     </div>
   </section>
 
-  <!-- Contacto -->
-  <section id="contact" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-5">Contáctanos</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <form id="contactForm">
-            <div class="mb-3">
-              <label for="name" class="form-label">Nombre</label>
-              <input type="text" id="name" class="form-control" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Correo electrónico</label>
-              <input type="email" id="email" class="form-control" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Mensaje</label>
-              <textarea id="message" class="form-control" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
-          </form>
-          <div id="formAlert" class="alert mt-3 d-none"></div>
-        </div>
+<!-- Contacto -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Contáctanos</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" id="name" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" id="email" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea id="message" class="form-control" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- ALERTA FIJA ARRIBA -->
+<div id="formAlert" class="alert alert-success alert-dismissible fade d-none"
+     role="alert"
+     style="position: fixed; top: 20px; right: 20px; z-index: 1055; min-width: 280px;">
+  <span id="formAlertMessage"></span>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+</div>
+
 
   <!-- Footer -->
   <footer class="bg-dark text-white pt-4 pb-2 mt-5">
