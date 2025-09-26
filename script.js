@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Mixto Berenjena",
       description: "Mix especial con berenjenas, falafels crujientes, hummus, tahini y pan pita.",
       price: "$35.000",
-      image: "img/berenjena.jpg"
+      image: "img/Berenjena.jpg"
     },
     {
       name: "Mixto Especial Kafta",
